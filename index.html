@@ -4,7 +4,7 @@
 <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <script src="http://d3js.org/d3.v3.min.js"></script>
-    <script src="http://d3js.org/topojson.v0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/1.6.19/topojson.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-geo-projection/0.2.9/d3.geo.projection.min.js"></script>
     <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js'></script>
 
@@ -20,6 +20,9 @@
             padding: 20px;
             border: 2px solid #d0d0d0;
             border-radius: 5px;
+        }
+        .points {
+            fill: red;
         }
     </style>
 </head>
@@ -43,11 +46,20 @@
             .attr("width", "100%")
             .append("g");
 
+        var countryG = svg.append("g");
+        var pointG = svg.append("g");
+            
         d3.json("world.json", function (error, world) {
-            svg.selectAll(".countries")
-                .data(topojson.object(world, world.objects.countries).geometries)
+            countryG.selectAll(".countries")
+                .data(topojson.feature(world, world.objects.countries).features)
                 .enter().append("path")
                 .attr("class", "countries")
+                .attr("d", path);
+        });
+        d3.json("points.json", function (error, points) {
+            pointG.append("path")
+                .datum(topojson.feature(points, points.objects.points))
+                .attr("class", "points")
                 .attr("d", path);
         });
 
