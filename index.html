@@ -6,6 +6,7 @@
     <script src="http://d3js.org/d3.v3.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/1.6.19/topojson.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-geo-projection/0.2.9/d3.geo.projection.min.js"></script>
+    <script src="bower_components/chartjs/Chart.js"></script>
     <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js'></script>
 
     <style type="text/css">
@@ -21,6 +22,7 @@
             border: 2px solid #d0d0d0;
             border-radius: 5px;
         }
+        
         .points {
             fill: red;
         }
@@ -30,25 +32,45 @@
 <body onload="sizeChange()">
 
     <div id="container"></div>
+    <canvas id="myChart" width="40" height="40"></canvas>
 
     <script type="text/javascript">
+        var data = [
+            {
+                value: 300,
+                color: "#F7464A",
+                highlight: "#FF5A5E",
+                label: "Red"
+    },
+            {
+                value: 50,
+                color: "#46BFBD",
+                highlight: "#5AD3D1",
+                label: "Green"
+    },
+            {
+                value: 100,
+                color: "#FDB45C",
+                highlight: "#FFC870",
+                label: "Yellow"
+    }
+]
+        var ctx = $("#myChart").get(0).getContext("2d");
+        // This will get the first returned node in the jQuery collection.
+        var myPieChart = new Chart(ctx).Pie(data);
         d3.select(window)
             .on("resize", sizeChange);
-
         var projection = d3.geo.winkel3()
             .scale(182);
-
         var path = d3.geo.path()
             .projection(projection);
-
         var svg = d3.select("#container")
             .append("svg")
             .attr("width", "100%")
             .append("g");
-
         var countryG = svg.append("g");
         var pointG = svg.append("g");
-            
+
         d3.json("world.json", function (error, world) {
             countryG.selectAll(".countries")
                 .data(topojson.feature(world, world.objects.countries).features)
