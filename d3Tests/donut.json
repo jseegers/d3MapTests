@@ -1,0 +1,28 @@
+{
+    "donut": [
+        {
+            "name": "pangolin",
+            "value": 35
+    },
+        {
+            "name": "anteater",
+            "value": 85
+    },
+        {
+            "name": "loris",
+            "value": 25
+    },
+        {
+            "name": "capybara",
+            "value": 105
+    },
+        {
+            "name": "echidna",
+            "value": 15
+    },
+        {
+            "name": "kangaroo",
+            "value": 45
+    }
+    ]
+}
