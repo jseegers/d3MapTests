@@ -1,0 +1,254 @@
+{
+    "tree": [
+        {
+            "start": "red",
+            "end": "pangolin",
+            "value": 1
+        },
+        {
+            "start": "red",
+            "end": "marmoset",
+            "value": 1
+        },
+        {
+            "start": "red",
+            "end": "lemur",
+            "value": 1
+        },
+        {
+            "start": "red",
+            "end": "gorilla",
+            "value": 1
+        },
+        {
+            "start": "red",
+            "end": "seal",
+            "value": 1
+        },
+        {
+            "start": "red",
+            "end": "capybara",
+            "value": 1
+        },
+        {
+            "start": "red",
+            "end": "loris",
+            "value": 1
+        },
+        {
+            "start": "red",
+            "end": "bushbaby",
+            "value": 1
+        },
+        {
+            "start": "red",
+            "end": "whale",
+            "value": 1
+        },
+        {
+            "start": "red",
+            "end": "shrew",
+            "value": 1
+        },
+        {
+            "start": "blue",
+            "end": "pangolin",
+            "value": 1
+        },
+        {
+            "start": "blue",
+            "end": "marmoset",
+            "value": 1
+        },
+        {
+            "start": "blue",
+            "end": "lemur",
+            "value": 1
+        },
+        {
+            "start": "blue",
+            "end": "gorilla",
+            "value": 1
+        },
+        {
+            "start": "blue",
+            "end": "seal",
+            "value": 1
+        },
+        {
+            "start": "blue",
+            "end": "capybara",
+            "value": 1
+        },
+        {
+            "start": "blue",
+            "end": "loris",
+            "value": 1
+        },
+        {
+            "start": "blue",
+            "end": "bushbaby",
+            "value": 1
+        },
+        {
+            "start": "blue",
+            "end": "whale",
+            "value": 1
+        },
+        {
+            "start": "blue",
+            "end": "shrew",
+            "value": 1
+        },
+        {
+            "start": "green",
+            "end": "pangolin",
+            "value": 1
+        },
+        {
+            "start": "green",
+            "end": "marmoset",
+            "value": 1
+        },
+        {
+            "start": "green",
+            "end": "lemur",
+            "value": 1
+        },
+        {
+            "start": "green",
+            "end": "gorilla",
+            "value": 1
+        },
+        {
+            "start": "green",
+            "end": "seal",
+            "value": 1
+        },
+        {
+            "start": "green",
+            "end": "capybara",
+            "value": 1
+        },
+        {
+            "start": "green",
+            "end": "loris",
+            "value": 1
+        },
+        {
+            "start": "green",
+            "end": "bushbaby",
+            "value": 1
+        },
+        {
+            "start": "green",
+            "end": "whale",
+            "value": 1
+        },
+        {
+            "start": "green",
+            "end": "shrew",
+            "value": 1
+        },
+        {
+            "start": "yellow",
+            "end": "pangolin",
+            "value": 1
+        },
+        {
+            "start": "yellow",
+            "end": "marmoset",
+            "value": 1
+        },
+        {
+            "start": "yellow",
+            "end": "lemur",
+            "value": 1
+        },
+        {
+            "start": "yellow",
+            "end": "gorilla",
+            "value": 1
+        },
+        {
+            "start": "yellow",
+            "end": "seal",
+            "value": 1
+        },
+        {
+            "start": "yellow",
+            "end": "capybara",
+            "value": 1
+        },
+        {
+            "start": "yellow",
+            "end": "loris",
+            "value": 1
+        },
+        {
+            "start": "yellow",
+            "end": "bushbaby",
+            "value": 1
+        },
+        {
+            "start": "yellow",
+            "end": "whale",
+            "value": 1
+        },
+        {
+            "start": "yellow",
+            "end": "shrew",
+            "value": 1
+        },
+        {
+            "start": "purple",
+            "end": "pangolin",
+            "value": 1
+        },
+        {
+            "start": "purple",
+            "end": "marmoset",
+            "value": 1
+        },
+        {
+            "start": "purple",
+            "end": "lemur",
+            "value": 1
+        },
+        {
+            "start": "purple",
+            "end": "gorilla",
+            "value": 1
+        },
+        {
+            "start": "purple",
+            "end": "seal",
+            "value": 1
+        },
+        {
+            "start": "purple",
+            "end": "capybara",
+            "value": 1
+        },
+        {
+            "start": "purple",
+            "end": "loris",
+            "value": 1
+        },
+        {
+            "start": "purple",
+            "end": "bushbaby",
+            "value": 1
+        },
+        {
+            "start": "purple",
+            "end": "whale",
+            "value": 1
+        },
+        {
+            "start": "purple",
+            "end": "shrew",
+            "value": 1
+        }
+    ]
+}
