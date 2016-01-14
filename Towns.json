@@ -1,0 +1,190 @@
+{
+    "type": "Topology",
+    "objects": {
+        "myTowns": {
+            "type": "GeometryCollection",
+            "crs": {
+                "type": "name",
+                "properties": {
+                    "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+                }
+            },
+            "geometries": [{
+                "type": "Point",
+                "properties": {
+                    "Name": "San Antonio",
+                    "description": 0,
+                    "timestamp": "3 weeks",
+                    "begin": null,
+                    "end": null,
+                    "altitudeMode": null,
+                    "tessellate": -1,
+                    "extrude": -1,
+                    "visibility": -1,
+                    "drawOrder": null,
+                    "icon": null,
+                    "State": "TX"
+                },
+                "coordinates": [7255, 3944, 0]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "Name": "Virginia Beach",
+                    "description": 1,
+                    "timestamp": "3 years",
+                    "begin": null,
+                    "end": null,
+                    "altitudeMode": null,
+                    "tessellate": -1,
+                    "extrude": -1,
+                    "visibility": -1,
+                    "drawOrder": null,
+                    "icon": null,
+                    "State": "VA"
+                },
+                "coordinates": [9999, 7556, 0]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "Name": " ",
+                    "description": 2,
+                    "timestamp": "7 years",
+                    "begin": null,
+                    "end": null,
+                    "altitudeMode": null,
+                    "tessellate": -1,
+                    "extrude": -1,
+                    "visibility": -1,
+                    "drawOrder": null,
+                    "icon": null,
+                    "State": "IL"
+                },
+                "coordinates": [8525, 9999, 0]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "Name": "Ewa Beach",
+                    "description": 3,
+                    "timestamp": "3 years",
+                    "begin": null,
+                    "end": null,
+                    "altitudeMode": null,
+                    "tessellate": -1,
+                    "extrude": -1,
+                    "visibility": -1,
+                    "drawOrder": null,
+                    "icon": null,
+                    "State": "HI"
+                },
+                "coordinates": [5000, 1000, 0]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "Name": "Colorado Springs",
+                    "description": 4,
+                    "timestamp": "3 years",
+                    "begin": null,
+                    "end": null,
+                    "altitudeMode": null,
+                    "tessellate": -1,
+                    "extrude": -1,
+                    "visibility": -1,
+                    "drawOrder": null,
+                    "icon": null,
+                    "State": "CO"
+                },
+                "coordinates": [6483, 8519, 0]
+            },{
+                "type": "Point",
+                "properties": {
+                    "Name": "Glen Ellyn",
+                    "description": 4,
+                    "timestamp": "7 years",
+                    "begin": null,
+                    "end": null,
+                    "altitudeMode": null,
+                    "tessellate": -1,
+                    "extrude": -1,
+                    "visibility": -1,
+                    "drawOrder": null,
+                    "icon": null,
+                    "State": "IL"
+                },
+                "coordinates": [8525, 9999, 0]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "Name": "Champaign",
+                    "description": 5,
+                    "timestamp": "4 years",
+                    "begin": null,
+                    "end": null,
+                    "altitudeMode": null,
+                    "tessellate": -1,
+                    "extrude": -1,
+                    "visibility": -1,
+                    "drawOrder": null,
+                    "icon": null,
+                    "State": "IL"
+                },
+                "coordinates": [8504, 9143, 0]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "Name": "Austin",
+                    "description": 6,
+                    "timestamp": "4 years",
+                    "begin": null,
+                    "end": null,
+                    "altitudeMode": null,
+                    "tessellate": -1,
+                    "extrude": -1,
+                    "visibility": -1,
+                    "drawOrder": null,
+                    "icon": null,
+                    "State": "TX"
+                },
+                "coordinates": [7346, 4354, 0]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "Name": "Houston",
+                    "description": 7,
+                    "timestamp": "2 years",
+                    "begin": null,
+                    "end": null,
+                    "altitudeMode": null,
+                    "tessellate": -1,
+                    "extrude": -1,
+                    "visibility": -1,
+                    "drawOrder": null,
+                    "icon": null,
+                    "State": "TX"
+                },
+                "coordinates": [7635, 4107, 0]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "Name": "Reston",
+                    "description": 8,
+                    "timestamp": "3 years",
+                    "begin": null,
+                    "end": null,
+                    "altitudeMode": null,
+                    "tessellate": -1,
+                    "extrude": -1,
+                    "visibility": -1,
+                    "drawOrder": null,
+                    "icon": null,
+                    "State": "VA"
+                },
+                "coordinates": [9831, 8580, 0]
+            }]
+        }
+    },
+    "arcs": [],
+    "transform": {
+        "scale": [0.008203921019992993, 0.0020566434752424356],
+        "translate": [-158.0089967257904, 21.31314968930763]
+    }
+}
